@@ -4,6 +4,11 @@
         protected $firstname = "Daniel";
         protected $lastname = "Kitheka";
         private $age = 55;
+
+        //final prevents overriding of methods a
+        final function __construct(){
+            echo "this is a constructor ";
+        }
     }
 
     //inheritance
